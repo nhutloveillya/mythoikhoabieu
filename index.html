@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Thoi Khoa Bieu</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+    body {
+        font-family: 'Cabin', sans-serif;
+    }
+    </style>
+</head>
+<body class="items-center">
+<div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu dropdown-content bg-base-100 w-56 rounded-box z-1 mt-3 p-2 shadow">
+        <li><a>Trang Chủ</a></li>
+        <li><a>Github</a></li>
+        <li><a>Giới Thiệu</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar-center">
+    <a class="btn btn-ghost btn-lg text-xl text-bold">MyTKB</a>
+  </div>
+  <div class="navbar-end">
+    <button class="btn btn-ghost btn-circle">
+      <div class="indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /> </svg>
+        <span class="badge badge-xs badge-primary indicator-item"></span>
+      </div>
+    </button>
+  </div>
+</div>
+
+<div class="card bg-base-200 border border-gray-300 rounded-lg shadow-xl m-4">
+<div class="tabs tabs-border">
+  
+  <label class="tab">
+    <input type="radio" name="my_tabs_1" checked="checked" />
+    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 me-2" viewBox="0 0 34 24"><path fill="currentColor" d="M6.106 23.999h-.067a6.106 6.106 0 0 1 0-12.212h.071h-.004c.094 0 .189.007.283.012c1.434-2.545 4.119-4.235 7.199-4.235a8.2 8.2 0 0 1 3.618.835l-.049-.021a5.983 5.983 0 0 1 2.019-1.43l.039-.015a5.842 5.842 0 0 1 2.316-.47a5.942 5.942 0 0 1 2.847 11.159l-.031.016A4.146 4.146 0 0 1 20.843 24h-.007zm-4.413-6.107a4.418 4.418 0 0 0 4.413 4.413h14.732a2.46 2.46 0 1 0-1.591-4.337l.004-.003a.846.846 0 1 1-1.095-1.291l.002-.001a4.128 4.128 0 0 1 1.948-.916l.025-.004a6.54 6.54 0 0 0-11.952-3.629l-.015.023a6.115 6.115 0 0 1 1.767.985l-.012-.009a.846.846 0 1 1-1.059 1.32l.002.001a4.342 4.342 0 0 0-2.741-.967h-.012h.001a4.418 4.418 0 0 0-4.416 4.414zm18.181-9.4c-.477.208-.886.48-1.238.813l.002-.002a8.223 8.223 0 0 1 3.187 6.499v.016c.48.12.902.307 1.28.556l-.016-.01c1.585-.641 2.682-2.167 2.682-3.95a4.25 4.25 0 0 0-4.01-4.243h-.011q-.119-.007-.238-.007h-.01a4.2 4.2 0 0 0-1.654.338l.027-.01zm8.747 13.102l-2.022-2.25a.846.846 0 1 1 1.259-1.131l.001.001l2.022 2.253a.846.846 0 1 1-1.259 1.131l-.001-.001zm4.413-7.71l-3.023-.164a.848.848 0 1 1 .094-1.691h-.002l3.023.164a.847.847 0 0 1-.045 1.691zm-5.78-6.62a.843.843 0 0 1 .065-1.195l.001-.001l2.253-2.022a.848.848 0 0 1 1.131 1.264l-.001.001l-2.254 2.025a.844.844 0 0 1-1.194-.064l-.001-.001zM15.18 6.61l-2.021-2.254a.846.846 0 1 1 1.259-1.131l.001.001l2.019 2.257a.846.846 0 1 1-1.259 1.131l-.001-.001zm6.757-1.893a.848.848 0 0 1-.801-.845l.001-.05v.002L21.301.8a.848.848 0 0 1 1.692.046l-.001.048V.892l-.164 3.024a.848.848 0 0 1-.845.801z"/></svg>
+    Sáng
+  </label>
+  <div class="tab-content rounded-box border-base-300 p-6">
+    Tab content 1
+  </div>
+
+  <label class="tab">
+    <input type="radio" name="my_tabs_1" />
+    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 me-2" viewBox="0 0 33 24"><path fill="currentColor" d="M6.57 10.402h.012c1.121 0 2.15.392 2.957 1.047l-.009-.007a.91.91 0 0 0 1.279-.139l.001-.002a.907.907 0 0 0-.14-1.279l-.002-.001a6.505 6.505 0 0 0-1.842-1.035l-.046-.015c1.285-1.881 3.417-3.101 5.834-3.108h.001a7.04 7.04 0 0 1 7.034 6.984v.003c-.82.145-1.54.495-2.129.995l.006-.005a.91.91 0 0 0-.105 1.282l-.001-.001a.91.91 0 0 0 1.282.105l-.001.001a2.628 2.628 0 0 1 1.707-.625a2.65 2.65 0 0 1 2.646 2.645a2.648 2.648 0 0 1-2.645 2.646H6.569a4.752 4.752 0 0 1-4.746-4.747a4.75 4.75 0 0 1 4.745-4.744zm17.892-8.503a6.497 6.497 0 0 0-.212.971l-.004.037a6.95 6.95 0 0 0 5.871 7.83l.038.004c.291.043.626.068.967.068h.062h-.003c-.985 2.036-2.974 3.447-5.306 3.593l-.018.001a4.477 4.477 0 0 0-2.349-1.483l-.031-.007v-.017a8.84 8.84 0 0 0-3.752-7.233l-.028-.019c.847-1.959 2.608-3.381 4.729-3.739l.037-.005zM6.57 21.714h15.84a4.47 4.47 0 0 0 4.466-4.467a4.491 4.491 0 0 0-.153-1.144l.007.031a8.17 8.17 0 0 0 6.646-6.117l.011-.056a.91.91 0 0 0-.219-.826l.001.001a.907.907 0 0 0-.811-.281l.005-.001l-.362.056a5.17 5.17 0 0 1-1.627.024l.028.003c-2.505-.362-4.408-2.494-4.408-5.07c0-.25.018-.495.052-.736l-.003.027a5.126 5.126 0 0 1 .597-1.786l-.013.026a.887.887 0 0 0 .136-.454V.918a.909.909 0 0 0-.86-.908h-.002a8.112 8.112 0 0 0-7.782 4.695l-.021.05a8.656 8.656 0 0 0-3.475-.715h-.009a8.893 8.893 0 0 0-7.721 4.511l-.023.044c-.102-.005-.203-.013-.305-.013a6.573 6.573 0 0 0-6.566 6.566a6.575 6.575 0 0 0 6.566 6.568z"/></svg>
+    Chiều
+  </label>
+  <div class="tab-content rounded-box border-base-300 p-6">
+    Tab content 2
+  </div>
+</div>
+</div>
+
+</body>
+</html>
